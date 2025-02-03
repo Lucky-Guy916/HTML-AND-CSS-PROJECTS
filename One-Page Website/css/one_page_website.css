@@ -1,0 +1,11 @@
+body, header {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+
+  form input {
+    width: 250px;             /* Sets the width of the inputs */
+    margin: 10px 0;           /* Sets vertical margin between the inputs */
+    border: 2px solid #ccc;   /* Adds a solid border with a light gray color */
+    border-radius: 5px;       /* Rounds the corners of the border */
+  }
