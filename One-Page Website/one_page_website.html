@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poker Coaching</title>
     <link rel="stylesheet" href="css/one_page_website.css">
+    <script src="JS/one_page_website.js" defer></script>
 </head>
 <!--HEADER-->
 <header>
@@ -19,26 +20,26 @@
         <ul>
             <a href="#pro"><li>Talk With Real Pros</li></a>
             <a href="#strategies"><li>Learn Elite Strategies</li></a>
-            <a href="#libary"><li>Explore Our Video Libary</li></a>
-            <a href="#contact"><li>Give Us Your Importatnt Information</li></a>
-           
+            <a href="#libary"><li>Explore Our Video Library</li></a>
+            <a href="#contact"><li>Give Us Your Important Information</li></a>
         </ul>
     </nav>
+
     <!--POKER IMAGES-->
     <section>       
         <div>
             <h2>Learn How To Dominate Live Poker</h2>
             <!--PRO POKER PLAYER-->    
-            <div id="pro">
-                <h3>Talk With Real Professonals</h3>
-                <img src="images/pro-poker-player.jpg" alt="Pro poker player">
+            <div id="pro" class="gallery">
+                <h3>Talk With Real Professionals</h3>
+                <img src="images/pro-poker-player.jpg" alt="Pro poker player" class="gallery-img">
             </div>
             <!--Learn Elite Strategies-->
-            <div id="strategies">
+            <div id="strategies" class="gallery">
                 <h3>Learn Elite Strategies</h3>
-                <img src="images/poker-strats.png" alt="Poker strategies">
+                <img src="images/poker-strats.png" alt="Poker strategies" class="gallery-img">
             </div>
-            <!--Video Libary-->
+            <!--Video Library-->
             <div id="libary">
                 <h3>Explore Our Massive Video Training Library</h3>
                 <iframe width="1280" 
@@ -46,12 +47,11 @@
                 src="https://www.youtube.com/embed/kP9CBtSW0kA" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen alt="Training videos">
-
-                </iframe>
+                allowfullscreen alt="Training videos"></iframe>
             </div>
         </div>
     </section>
+
     <!--CONTACT FORM-->
     <section>
         <div id="contact">
@@ -69,6 +69,14 @@
             </div>
         </div>
     </section>
+
+    <!--LIGHTBOX MODAL-->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
 </body>
 <!--FOOTER-->
 <footer>
